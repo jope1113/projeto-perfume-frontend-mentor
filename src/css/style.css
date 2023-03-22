@@ -1,0 +1,94 @@
+body{
+    background-color: var(--background-color);
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+}
+
+.cartao{
+    display: flex;
+    justify-content: center;
+    width: 540px;
+    max-height: 410px;
+    border-radius: 10px;
+    background-color: var(--background-color-card-text); 
+    margin: 20px; 
+}
+
+.cartao img{
+    width: 270px;
+    height: 100%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.informacao{
+    padding: 30px 30px;
+}
+
+.perfume{
+    font-size: 11px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin-bottom: 20px;
+    color: var(--color-font);
+}
+
+.titulo-produto {
+    font-family: 'Fraunces', serif;
+    font-size: 30px;
+    margin-bottom: 20px;
+    line-height: 30px;
+}
+
+.descricao{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: var(--color-font);
+    line-height: 20px;
+    margin-bottom: 7px;
+}
+
+.valores{
+    display: flex;
+    align-items: center;
+    margin-bottom: 17px;
+
+}
+
+.valor-atual{
+    font-size: 30px;
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    color: var(--text-button-color);
+    
+}
+
+.desconto{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    color: var(--color-font);
+    padding-left: 20px;
+    text-decoration: line-through;
+}
+
+.botao-carrinho{
+    width: 215px;
+    height: 45px;
+    border: none;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    background-color: var(--text-button-color);
+    color: var(--background-color-card-text);
+}
+
+.botao-carrinho:hover{
+    cursor: pointer;
+    background-color: var(--color-status);
+}

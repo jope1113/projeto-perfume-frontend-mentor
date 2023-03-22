@@ -1,0 +1,24 @@
+@media(max-width:600px){
+    .cartao{
+        flex-direction: column;
+        width: 340px;
+        max-height: 610px;
+
+    }
+
+    .cartao img{
+        width: 100%;
+        height:100%;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 0;
+
+    }
+
+    .descricao{
+        margin-bottom: 20px;
+    }
+
+    .botao-carrinho{
+        width: 100%;
+    }
+}  
